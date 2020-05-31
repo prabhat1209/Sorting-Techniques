@@ -5,6 +5,7 @@ using namespace std;
 //                   minimum = O(n) ; if the arrangement of elements is already sorted.
 // Adaptive
 // Stable
+// Useful in Linked List
 
 void insertionSort(int A[], int n){
     for(int i=1;i<n;i++){
