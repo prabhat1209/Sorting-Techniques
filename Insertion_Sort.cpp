@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// Time Complexity - O(n^2)
+// Time Complexity - maximum = O(n^2)
+//                   minimum = O(n) ; if the elements is already sorted.
+// Adaptive
+// Stable
 
 void insertionSort(int A[], int n){
     for(int i=1;i<n;i++){
