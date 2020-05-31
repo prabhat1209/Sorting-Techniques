@@ -5,6 +5,7 @@ using namespace std;
 //                   minimum = O(n) ; if the arrangement of elements is already sorted.
 // Adaptive
 // Stable
+// Kth largest element can be determine in each pass 
 
 void bubbleSort(int A[], int n){
     int flag;
