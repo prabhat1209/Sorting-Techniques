@@ -2,7 +2,9 @@
 using namespace std;
 
 // Time Complexity - maximum = O(n^2)
-//                   minimum = O(n)  
+//                   minimum = O(n) ; if the elements is already sorted.
+// Adaptive
+// Stable
 
 void bubbleSort(int A[], int n){
     int flag;
