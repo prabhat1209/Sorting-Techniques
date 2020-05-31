@@ -24,7 +24,7 @@ void bubbleSort(int A[], int n){
 int main()
 {
     int n;
-    cout<<"Enter the no. of Elements to be inseted : ";
+    cout<<"Enter the no. of Elements to be inserted : ";
     cin>>n;
     int A[n];
     for(int i=0;i<n;i++){
