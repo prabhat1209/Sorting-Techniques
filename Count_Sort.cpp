@@ -2,6 +2,9 @@
 #include<malloc.h>
 using namespace std;
 
+// Time Complexity  - O(n)
+// Space Complexity - depends on the largest element present in the array. 
+
 int maxElement(int A[], int n){
     int max = INT32_MIN;
     for(int i=0;i<n;i++){
